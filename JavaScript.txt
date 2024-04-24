@@ -1,17 +1,17 @@
 🗒 JavaScript :-
 -------------
 => Basic Step :-
-   - JavaScript vs EcmaScript.✔
-   - Install vscode and run first program.✔
+   ✅ JavaScript vs EcmaScript.
+   ✅ Install vscode and run first program.
 
-=> Basics of Programming in JavaScript :- 
-   - Hello world program.✔
-   - Declare variable using var.✔
-   - More about variable.✔
-   - Let.✔
-   - Const.✔
-   - String Indexing.
-   - Useful string methods.
+=> Basics of Programming in JavaScript :
+   ✅ Hello world program.
+   ✅ Declare variable using var.
+   ✅ More about variable.
+   ✅ Let.
+   ✅ Const.
+   ✅ String Indexing.
+   ✅ Useful string methods.
    - Template Strings.
    - Null, undefined, BigInt, typeof.
    - Booleans and Comparison Operator.
