@@ -16,7 +16,7 @@
 // console.log(n1/n2);//NaN
 
 
-console.log(Boolean(0));
+// console.log(Boolean(0));
 
 ///////////////////////////////////////////////////
 // var n1 = null;

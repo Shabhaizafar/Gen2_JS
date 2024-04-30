@@ -16,9 +16,9 @@
    ✅ Null, undefined, BigInt, typeof.
    ✅ Booleans and Comparison Operator.
    ✅ Truthy and Falsy Values.
-    If else statement.
+   ✅ If else statement.
    - Ternary Operator.
-   - && || operator.
+   ✅ && || operator.
    - Nested if else.
    - If elseif else.
    - Switch statement.
