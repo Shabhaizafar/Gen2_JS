@@ -77,15 +77,15 @@ do {
 * * * 
 * * * *
 */ 
-var n = 10;
-var str = "";
-for (let i = 0; i < n; i++) {
-    str= "";
-    for (let j = 0; j <=i; j++) {
-        str+="* ";// str= str+"* "
-    }   
-    console.log(str);
-}
+// var n = 10;
+// var str = "";
+// for (let i = 0; i < n; i++) {
+//     str= "";
+//     for (let j = 0; j <=i; j++) {
+//         str+="* ";// str= str+"* "
+//     }   
+//     console.log(str);
+// }
 
 /*
 1
@@ -107,6 +107,78 @@ for (let i = 0; i < n; i++) {
 // }
 
 
+// var n = 8;
+// var str = "";
+// var space = n-1;
+// for (let i = 0; i < n; i++) {
+//   str="";
+//   for (let j = space; j>0 ; j--) {
+//     str+="    ";
+//   }
+//   for (let j = 0; j <=i; j++) {
+//     str+="*   ";
+//   }
+//   for (let j = 0; j <i; j++) {
+//     str+="*   ";
+//   }
+//   console.log(str);
+//   console.log("\n");
+
+//   space--;
+// }
+
+// for (let i = 0; i < n-2; i++) {
+//   str="";
+//   for (let j = 0; j < n-2; j++) {
+//     str+="*   ";
+//   }
+//   for (let j = 0; j < 3; j++) {
+//     str+="    ";
+//   }
+//   for (let j = 0; j < n-2; j++) {
+//     str+="*   ";
+//   }
+//   console.log(str);
+//   console.log("\n");
+// }
+
+
+// var n = 10;
+// var str = "";
+// var space = n-1;
+// for (let i = 0; i < n; i++) {
+//   str="";
+//   for (let j = space; j>0 ; j--) {
+//     str+="&nbsp;&nbsp;&nbsp;";
+//   }
+//   for (let j = 0; j <=i; j++) {
+//     str+="*&nbsp;";
+//   }
+//   for (let j = 0; j <i; j++) {
+//     str+="*&nbsp;";
+//   }
+//   document.write(str);
+//   document.write("<br>");
+
+//   space--;
+// }
+
+// for (let i = 0; i < n-2; i++) {
+//   str="";
+//   for (let j = 0; j < n-2; j++) {
+//     str+="*&nbsp;";
+//   }
+//   for (let j = 0; j < 3; j++) {
+//     str+="&nbsp;&nbsp;&nbsp;";
+//   }
+//   for (let j = 0; j < n-2; j++) {
+//     str+="*&nbsp;";
+//   }
+//   document.write(str);
+//   document.write("<br>");
+// }
+
+
 /*
 n=4
       *
@@ -125,4 +197,35 @@ n=5
 * * *       * * *
 * * *       * * *
 * * *       * * *
+*/
+
+/*
+1) n=4
+
+A
+A B
+A B C
+A B C D
+
+
+2) n=4
+A
+2 3
+D E F
+7 8 9 10
+
+3) n=4
+
+1
+2 1
+3 2 1
+4 3 2 1
+
+
+4) n=4 
+
+* * * * * * *
+  * * * * *
+    * * *
+      *  
 */
