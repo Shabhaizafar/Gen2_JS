@@ -42,10 +42,6 @@
 // Person['fname'] = "Ajay";
 
 
-////////////////////////////////
-// - Dot vs Bracket Notation.
-
-
 
 
 
