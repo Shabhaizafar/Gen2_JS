@@ -7,4 +7,4 @@ function TowerOfHanoi(n,main_origin,target,temp){
     TowerOfHanoi(n-1,temp,target,main_origin);
 }
 var num= 3;
-TowerOfHanoi(num,1,2,3);
+TowerOfHanoi(num,1,2,3); 
