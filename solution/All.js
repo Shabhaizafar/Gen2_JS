@@ -64,12 +64,12 @@
 //     { name: "Charlie", grade: 95 }
 //    ];
 //    sortStudentsByGrade(students);
-   // [
-   // { name: "Charlie", grade: 95 },
-   // { name: "Alice", grade: 90 },
-   // { name: "Bob", grade: 85 }
-   // ]
-   
+// [
+// { name: "Charlie", grade: 95 },
+// { name: "Alice", grade: 90 },
+// { name: "Bob", grade: 85 }
+// ]
+
 
 
 // const students = [
@@ -215,3 +215,119 @@
 // }
 // var ANS = calculateTotal(Arr);
 // console.log(ANS);
+// ------------------------------------------
+// Question 7: Nested Object Manipulation (5 Marks)
+// Scenario: You are working on a complex data processing system and need to extract information from a deeply nested
+// object.
+// Problem Statement: Given a deeply nested object representing a company's hierarchy, write a function
+// getEmployeeNames(company) that extracts all employee names from any level of the hierarchy. The object structure
+// // can be arbitrarily deep
+// Example:
+// const company = {
+//    name: "TechCorp",
+//    departments: [
+//       {
+//          name: "Engineering",
+//          employees: ["Alice", "Bob"],
+//          subdepartments: [
+//             {
+//                name: "Frontend",
+//                employees: ["Carol", "Dave"]
+//             }
+//          ]
+//       },
+//       {
+//          name: "HR",
+//          employees: ["Eve"],
+//          subdepartments: [
+//             {
+//                name: "Recruitment",
+//                employees: ["Frank"]
+//             }
+//          ]
+//       }
+//    ]
+// };
+// var Arr = [];
+// for (const iterator in company) {
+//    if(Array.isArray(company[iterator]))
+//    {
+//          for (const values of company[iterator]) {
+//             Arr.push(...values.employees);
+//             if(values?.subdepartments)
+//             {
+//                Arr.push(...values?.subdepartments[0].employees);
+//             }
+//          }
+//    }
+// }
+// console.log(Arr);
+// ---------------------------------
+// Question 8: Objects in Arrays (5 Marks)
+// Scenario: You are developing a library management system and need to manage a collection of books.
+// Problem Statement: Write a function filterBooksByAuthor(books, author) that takes an array of book objects
+// and an author's name, and returns an array of books written by the specified author. Each book object has the properties
+// title, author, and year.
+// const books = [
+//    { title: "Book A", author: "Author X", year: 2001 },
+//    { title: "Book B", author: "Author Y", year: 2002 },
+//    { title: "Book C", author: "Author X", year: 2003 }
+//   ];
+//   filterBooksByAuthor(books, "Author X");
+// [
+// { title: "Book A", author: "Author X", year: 2001 },
+// { title: "Book C", author: "Author X", year: 2003 }
+// ]
+// const books = [
+//    { title: "Book A", author: "Author X", year: 2001 },
+//    { title: "Book B", author: "Author Y", year: 2002 },
+//    { title: "Book C", author: "Author X", year: 2003 }
+//   ];
+
+// var author = "Author Y";
+// var NewArr = [];
+// for (const iterator of books) {
+//       if(iterator.author==author)
+//       {
+//          NewArr.push(iterator);
+//       }
+// }
+// console.log(NewArr);
+// ------------------------------------
+// Question 9: Advanced Recursion (5 Marks)
+// Scenario: You are working on a file system utility and need to calculate the total size of files within a deeply nested
+// directory structure.
+// Problem Statement: Write a recursive function getTotalSize(directory) that calculates the total size of all files
+// within a nested directory structure. The directory structure is represented as an object where keys are folder names and
+// values are either file sizes or nested directory objects.
+// Example:
+const fileSystem = {
+   folder1: {
+      file1: 100,
+      folder2: {
+         file2: 200,
+         folder3: {
+            file3: 300
+         }
+      }
+   },
+   file4: 400
+};
+
+var sum = 0;
+function getTotalSize(directory){
+      var {} = directory;
+      sum = sum + directory.file4;
+      console.log(sum);
+}
+getTotalSize(fileSystem);
+
+
+/*
+Object destructuring : 
+It allows us to write code that is shorter and more readable, since it allows us to bundle variables inside one object and then access the individual elements in another function without using the dot notation.
+*/ 
+/*
+What is the difference between array destructuring and object destructuring?
+Unlike in arrays where we can use any variable name to unpack the element, objects allow just the use of the name of the stored data. Interestingly, we can manipulate and assign a variable name to the data we want to get from the object.
+*/
