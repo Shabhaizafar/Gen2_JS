@@ -301,33 +301,62 @@
 // within a nested directory structure. The directory structure is represented as an object where keys are folder names and
 // values are either file sizes or nested directory objects.
 // Example:
-const fileSystem = {
-   folder1: {
-      file1: 100,
-      folder2: {
-         file2: 200,
-         folder3: {
-            file3: 300
-         }
-      }
-   },
-   file4: 400
-};
+// const fileSystem = {
+//    folder1: {
+//       file1: 100,
+//       folder2: {
+//          file2: 200,
+//          folder3: {
+//             file3: 300
+//          }
+//       }
+//    },
+//    file4: 400
+// };
 
-var sum = 0;
-function getTotalSize(directory){
-      var {} = directory;
-      sum = sum + directory.file4;
-      console.log(sum);
-}
-getTotalSize(fileSystem);
+// function getTotalSize(file){
+//    if(typeof file === 'number')
+//       {
+//          return file;
+//          }
+//    var total = 0;
+//    for (const key in file) {
+//          total+= getTotalSize(file[key]);
+//          console.log(total);
+//       }
+//    return total;
+// }
+// var ans =  getTotalSize(fileSystem);
+// console.log(ans);
 
+// ------------------------------------
+// Question 10: Arrow Functions (5 Marks)
+// Scenario: You are developing a web application and need to process and filter user data using arrow functions.
+// Problem Statement: Write an arrow function const processData = (data) that takes an array of user objects and
+// returns an array of usernames of users who are active and older than 18. Each user object has the properties username,
+// age, and active.
+// const users = [
+//    { username: "user1", age: 20, active: true },
+//    { username: "user2", age: 17, active: true },
+//    { username: "user3", age: 22, active: false },
+//    { username: "user4", age: 19, active: true }
+//   ];
+//   processData(users); // ["user1", "user4"]
 
-/*
-Object destructuring : 
-It allows us to write code that is shorter and more readable, since it allows us to bundle variables inside one object and then access the individual elements in another function without using the dot notation.
-*/ 
-/*
-What is the difference between array destructuring and object destructuring?
-Unlike in arrays where we can use any variable name to unpack the element, objects allow just the use of the name of the stored data. Interestingly, we can manipulate and assign a variable name to the data we want to get from the object.
-*/
+// const users = [
+//    { username: "user1", age: 20, active: true },
+//    { username: "user2", age: 17, active: true },
+//    { username: "user3", age: 22, active: false },
+//    { username: "user4", age: 19, active: true }
+//   ];
+// const processData = (data)=>{
+//    var Arr = [];
+//    for (const iterator of data) {
+//       if(iterator.age>=18 && iterator.active==true)
+//       {
+//          Arr.push(iterator.username);
+//       }
+//    }
+//    return Arr;
+// }
+// console.log(processData(users));
