@@ -14,6 +14,7 @@
 3. Declare a `let` variable inside a block and print it outside the block.
 4. Create a `const` object and modify one of its properties.
 5. Declare a `let` variable, reassign it within a loop, and print it both inside and outside the loop.
+//-------------------------
 
 ### `let`
 1. Declare a variable using `let`, assign it a value, then change the value.
