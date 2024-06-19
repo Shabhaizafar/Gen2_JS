@@ -115,15 +115,3 @@
 
 
 // ///////////////////////////////////////////////
-
-### Truthy and Falsy Values
-1. Write a function that returns `true` if a given value is truthy.
-2. List all falsy values in JavaScript.
-3. Write a function that filters out falsy values from an array.
-4. Check the truthiness of an empty string and print the result.
-5. Write a function that takes a value and returns a default value if it is falsy.
-6. Check the truthiness of `0` and print the result.
-7. Use an `if` statement to print a message only if a variable is truthy.
-8. Write a function that checks if an object is empty (has no properties).
-9. Check the truthiness of `NaN` and print the result.
-10. Use logical `||` to assign a default value to a variable if another variable is falsy.
