@@ -275,9 +275,7 @@
 5. Write a function that checks if a number is positive and even using `&&`.
 6. Use `||` to provide a fallback value for a variable if it is `null` or `undefined`.
 7. Write a function that checks if a user is logged in and has the required permissions using `&&`.
-8. Use
-
- `||` to print a message if a variable is falsy.
+8. Use `||` to print a message if a variable is falsy.
 9. Write a function that returns `true` if a number is either negative or greater than 100 using `||`.
 10. Use `&&` to combine multiple conditions in an `if` statement.
 
