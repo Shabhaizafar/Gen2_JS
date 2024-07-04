@@ -95,22 +95,22 @@
 // var Person3 = {...Person1,...Person2};
 // console.log(Person3);
 
-// // 9. Retrieving Object Keys
-const Person1 = {
-    fname : "Raj",
-    lname : "Patel",
-    Age : 12,
-    Gender : "Male"
-};
-for (const key in Person1) {
-    console.log(key);
-}
+// // // 9. Retrieving Object Keys
+// const Person1 = {
+//     fname : "Raj",
+//     lname : "Patel",
+//     Age : 12,
+//     Gender : "Male"
+// };
+// for (const key in Person1) {
+//     console.log(key);
+// }
 
-// // 10. Retrieving Object Values
+// // // 10. Retrieving Object Values
 
-for (const key in Person1) {
-    console.log(Person1[key]);
-}
+// for (const key in Person1) {
+//     console.log(Person1[key]);
+// }
 
 
 
@@ -126,6 +126,24 @@ for (const key in Person1) {
 // 8. Merging Objects
 // Merging Two Objects
 // Implement code to merge properties from two objects (Person1 and Person2) into a new object (Person3) without using the spread operator (...).
+
+// const Person1 = {
+//     fname : "Raj",
+//     lname : "Patel"
+// }
+// const Person2 = {
+//     Age : 12,
+//     Gender : "Male"
+// }
+// const MergeObj = {};
+// for (const key in Person1) {
+//         MergeObj[key]=Person1[key];
+// }
+
+// for (const key in Person2) {
+//     MergeObj[key]=Person2[key];
+// }
+// console.log(MergeObj);
 // 9. Retrieving Object Keys
 // Retrieving Keys of an Object
 // Write code to retrieve and log all keys of an object (Person1) using a loop (for...in).

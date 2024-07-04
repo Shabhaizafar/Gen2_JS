@@ -210,6 +210,28 @@
 
 // 9. **Advanced Array Operations:**
 //    - Implement a program that sorts an array of objects based on a specific property using array methods and arrow functions.
+// let people = [
+//    { name: 'Alice', age: 30 },
+//    { name: 'Bob', age: 25 },
+//    { name: 'Charlie', age: 35 }
+// ];
+
+
+// let people = [
+//    { name: 'Bob', age: 25 },
+//    { name: 'Alice', age: 30 },
+//    { name: 'Charlie', age: 35 }
+// ];
+
+// let people = [
+//    { name: 'Charlie', age: 35 },
+//    { name: 'Alice', age: 30 },
+//    { name: 'Bob', age: 25 }
+// ];
+
+// people.sort((a,b)=>{return b.name.length-a.name.length;});console.log(people);
+
+
 //    - Write a function that accepts two arrays and returns a new array with elements that are common to both arrays.
 
 // 10. **Error Handling with Arrays:**
