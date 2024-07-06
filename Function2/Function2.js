@@ -62,4 +62,4 @@ All();
 // 3. **Lexical Scope:**
 //    - Define lexical scope and contrast it with dynamic scope.
 //    - Give an example that illustrates lexical scope in JavaScript.
-//    - Discuss how lexical scope affects variable visibility and function execution in different contexts.
+//    - Discuss how lexical scope affects variable visibility and function execution in different contexts.`1
