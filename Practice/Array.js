@@ -236,3 +236,11 @@
 
 // 10. **Error Handling with Arrays:**
 //     - Implement a program that safely accesses a nested property of an object using array destructuring and handle cases where properties might be `undefined`.
+
+
+let books = [
+   { title: 'JavaScript: The Good Parts', author: 'Douglas Crockford', price: 30, category: 'Programming', titleLength: 0 },
+   { title: 'Eloquent JavaScript', author: 'Marijn Haverbeke', price: 25, category: 'Programming', titleLength: 0 },
+   { title: 'Clean Code', author: 'Robert C. Martin', price: 40, category: 'Software Engineering', titleLength: 0 },
+   { title: 'You Don\'t Know JS', author: 'Kyle Simpson', price: 20, category: 'Programming', titleLength: 0 }
+];
