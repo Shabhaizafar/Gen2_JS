@@ -43,7 +43,7 @@ All();
 
 
 
-//    - Block Scope Vs Function Scope.
+
 
 
 
