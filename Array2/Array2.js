@@ -65,8 +65,8 @@
 
 
 //////////////////////////////////////////////////////////////////
-var Arr = [11,13,15,16,18,30,50,38,399];
-console.log(Arr);
+// var Arr = [11,13,15,16,18,30,50,38,399];
+// console.log(Arr);
 //    - Filter.
 // var ans =  Arr.filter(
 //     (a)=>{
@@ -92,7 +92,7 @@ console.log(Arr);
 // console.log(Arr);
 
 
-//    - Find.
+// //    - Find.
 // var n = 30;
 // var ans = Arr.find(
 //     (a)=>{
@@ -156,3 +156,41 @@ console.log(Arr);
 
 // 12. **Splice:**
 //     - Write a function `spliceAndReverse` that takes an array and two indices (`start` and `end`). Use `Array.prototype.splice` to extract a subarray from `start` to `end`, reverse it, and then insert it back into the original array at the same position. Return the modified array.
+
+//////////////////////////
+var Arr = [11,13,15,16,18,30,50,38,399];
+console.log(Arr);
+
+Arr.splice();
+
+
+// // for 
+// for in 
+// for (const key in Arr) {
+//    console.log(key, typeof key);  Arr[key]
+// }
+// // for of 
+
+
+//    - Foreach method : 
+// Arr.forEach((v,i,a)=>{
+//     console.log(v,i,a);
+
+// });
+
+
+
+///////////////////////////////////////////////
+
+
+//    - Map method.
+//    - Reduce.
+
+
+//////////////////////////////////////////////
+
+// structure  : C
+// obj    : JS 
+// dict  : Py 
+
+// obj   : CPP,JAVA
