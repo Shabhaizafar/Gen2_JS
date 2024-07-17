@@ -158,10 +158,10 @@
 //     - Write a function `spliceAndReverse` that takes an array and two indices (`start` and `end`). Use `Array.prototype.splice` to extract a subarray from `start` to `end`, reverse it, and then insert it back into the original array at the same position. Return the modified array.
 
 //////////////////////////
-var Arr = [11,13,15,16,18,30,50,38,399];
-console.log(Arr);
+// var Arr = [11,13,15,16,18,30,50,38,399];
+// console.log(Arr);
 
-Arr.splice();
+// Arr.splice();
 
 
 // // for 
@@ -181,12 +181,42 @@ Arr.splice();
 
 
 ///////////////////////////////////////////////
+var Arr = [1,2,3,4,5,6,7,8,9,10];
+//    - foreach 
+// var ans = Arr.forEach((v)=>{
+//     return v*v;
+// });
 
+// console.log(ans);
 
 //    - Map method.
+// var ans = Arr.map((v)=>{
+//     if(v%2==0)
+//         return v;
+//     else
+//         return -1;
+// });
+
+// console.log(ans,Arr);
+
 //    - Reduce.
+// Arr.reduce(
+//     (currentvalue,nextvalue)=>{
+//         console.log(currentvalue,nextvalue);
+//         return nextvalue;
+//     }
+// );
 
+var sum = Arr.reduce(
+    (currentvalue,nextvalue)=>{
+        return currentvalue+nextvalue;
+    }
+);
+console.log(sum);
 
+// 1 2
+//  3 3
+//   6  4
 //////////////////////////////////////////////
 
 // structure  : C
@@ -194,3 +224,48 @@ Arr.splice();
 // dict  : Py 
 
 // obj   : CPP,JAVA
+
+
+
+// 1. **Find:**
+//    - Write a function `findEvenIndex` that takes an array of integers and returns the index of the first even number using `Array.prototype.find`. If no even number is found, return `-1`.
+
+
+// var Arr = [11,13,15,16,18,30,51,38,399];
+// console.log(Arr);
+// function findEvenIndex(Arr)
+// {
+//     var ans = Arr.find(
+//         (v)=>{
+//             if(v%2==0)
+//                 return v;
+//         }
+//     );
+//     return Arr.indexOf(ans);
+// }
+// var final = findEvenIndex(Arr);
+// console.log(final);
+
+
+/////////////////////
+// Map 
+// Capitalize the First Letter of Each Word:
+// Write a function that takes a sentence as input and returns a new sentence where the first letter of each word is capitalized using map.
+
+// Convert Celsius to Fahrenheit:
+// Given an array of temperatures in Celsius, convert each temperature to Fahrenheit using map.
+
+// Sort and Map Combined:
+// Given an array of objects with numeric properties, sort the array based on a specific property and then extract a new array containing just that property using map.
+
+////////////////////////////////////
+// reduce 
+// Flatten an Array of Arrays:
+// Write a function that flattens an array of arrays into a single array using reduce.
+
+
+// Counting Word Frequencies in a Sentence:
+// Write a function that takes a sentence as a string, splits it into words, and returns an object where keys are words and values are their frequencies using reduce.
+
+// Reverse a String using Reduce:
+// Write a function that reverses a string using reduce.
