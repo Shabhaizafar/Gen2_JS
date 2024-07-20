@@ -110,7 +110,7 @@
     { brand: "Toyota", model: "Camry", fuel: "Gasoline", price: 10025 , color: "Silver" }
   ]
 
-// Sort the cars by price in even descending order.
+// Sort the cars by price in even ascending order.
 // Sort the cars by price in brand Alphabeticaly .
 // Filter the cars to create a new array containing only hybrid cars.
 // Filter the cars to create a new array containing only price lestthan 40 cars.
