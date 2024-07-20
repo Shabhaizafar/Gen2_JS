@@ -103,15 +103,15 @@
 
 //////////////////////////////
 [
-    { brand: "BMW", model: "X5", fuel: "Diesel", price: 60000, color: "Black" },
-    { brand: "Tesla", model: "Model 3", fuel: "Electric", price: 55000, color: "Blue" },
-    { brand: "Ford", model: "Mustang", fuel: "Gasoline", price: 45000, color: "Red" },
-    { brand: "Honda", model: "Accord", fuel: "Hybrid", price: 32000, color: "White" },
-    { brand: "Toyota", model: "Camry", fuel: "Gasoline", price: 25000, color: "Silver" }
+    { brand: "BMW", model: "X5", fuel: "Diesel", price: 100060, color: "Black" },
+    { brand: "Tesla", model: "Model 3", fuel: "Electric", price: 55455 , color: "Blue" },
+    { brand: "Ford", model: "Mustang", fuel: "Gasoline", price: 998745 , color: "Red" },
+    { brand: "Honda", model: "Accord", fuel: "Hybrid", price: 774332 , color: "White" },
+    { brand: "Toyota", model: "Camry", fuel: "Gasoline", price: 10025 , color: "Silver" }
   ]
 
-// Sort the cars by price in descending order.
+// Sort the cars by price in even descending order.
 // Sort the cars by price in brand Alphabeticaly .
 // Filter the cars to create a new array containing only hybrid cars.
-// Filter the cars to create a new array containing only price lestthan 40000 cars.
+// Filter the cars to create a new array containing only price lestthan 40 cars.
 
