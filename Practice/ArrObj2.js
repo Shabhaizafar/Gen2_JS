@@ -102,16 +102,84 @@
 
 
 //////////////////////////////
-[
-    { brand: "BMW", model: "X5", fuel: "Diesel", price: 100060, color: "Black" },
-    { brand: "Tesla", model: "Model 3", fuel: "Electric", price: 55455 , color: "Blue" },
-    { brand: "Ford", model: "Mustang", fuel: "Gasoline", price: 998745 , color: "Red" },
-    { brand: "Honda", model: "Accord", fuel: "Hybrid", price: 774332 , color: "White" },
-    { brand: "Toyota", model: "Camry", fuel: "Gasoline", price: 10025 , color: "Silver" }
-  ]
 
+
+
+// 5. **Find:**
+//    - Create a function `findPrime` that takes an array of integers and returns the first prime number using `Array.prototype.find`. If no prime number is found, return `null`.
+// var Arr = [10,15,20];
+
+// var ans = Arr.find(
+//     (v)=>{
+//       var counter = 0;
+//           for (let i =1; i <=v; i++) {
+//               if(v%i==0)
+//               {
+//                 counter++;
+//               }
+//           }
+//           if(counter==2)
+//           {
+//             return -1;
+//           }
+//     }
+// );
+
+// if(!ans)
+// {
+//     console.log(null);
+// }
+// else{
+//   console.log(ans);
+// }
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+var Arr = [
+  {price : 1000},
+  {price : 500},
+  {price :2000}
+];
+console.log(...Arr);
+Arr.sort((a,b)=>{
+    if(a.price<b.price)
+      return -1;
+});
+
+
+console.log(...Arr);
+
+// var Arr =  [
+//   { brand:  "BMW", model: "X5", fuel: "Diesel", price: 100060, color: "Black" },
+//   { brand: "Tesla", model: "Model 3", fuel: "Electric", price: 55455 , color: "Blue" },
+//   { brand: "Ford", model: "Mustang", fuel: "Gasoline", price: 998745 , color: "Red" },
+//   { brand: "Honda", model: "Accord", fuel: "Hybrid", price: 774332 , color: "White" },
+//   { brand: "Toyota", model: "Camry", fuel: "Gasoline", price: 10025 , color: "Silver" }
+//   ]
+
+//   console.log(...Arr);
+
+// var z=0;
+// Arr.sort(
+//   (a,b)=>{
+//     if(b.price%2==0 && b.price!=z)
+//     {
+//       console.log(z);
+//       z = b.price;
+      
+//       return a.price-b.price;
+//     }
+//     if(a.price%2==0 && a.price!=z)
+//     {
+//       console.log(z);
+
+//       z = a.price;
+//     }
+//   }
+// );
+// console.log(...Arr);
 // Sort the cars by price in even ascending order.
 // Sort the cars by price in brand Alphabeticaly .
 // Filter the cars to create a new array containing only hybrid cars.
 // Filter the cars to create a new array containing only price lestthan 40 cars.
-

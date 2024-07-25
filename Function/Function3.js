@@ -111,10 +111,7 @@
 // function Expression  
 // 2. Write a JavaScript function that checks whether a passed string is a palindrome or not?
 // A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run. 
-// var ans = function (str){
-//     (str.split('').reverse().join('')==str) ? console.log("Pelindrome") : console.log("Not");
-// }
-// ans('madam');
+
 
 // Function Arrow
 // 3. Write a JavaScript function that generates all combinations of a string.

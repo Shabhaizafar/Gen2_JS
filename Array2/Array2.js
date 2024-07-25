@@ -133,8 +133,11 @@
 // 4. **Splice:**
 //    - Write a function `spliceAndReplace` that takes an array, a start index, a delete count, and an array of replacement elements. Use `Array.prototype.splice` to remove elements from the array starting from the given index and delete count, then insert the replacement elements at that position. Return the modified array.
 
-// 5. **Find:**
-//    - Create a function `findPrime` that takes an array of integers and returns the first prime number using `Array.prototype.find`. If no prime number is found, return `null`.
+// // 5. **Find:**
+// //    - Create a function `findPrime` that takes an array of integers and returns the first prime number using `Array.prototype.find`. If no prime number is found, return `null`.
+// var Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+// Arr.find();
 
 // 6. **Fill:**
 //    - Initialize an array of 8 elements with the numbers from 1 to 8 using `Array.prototype.fill` and a callback function.
@@ -181,7 +184,7 @@
 
 
 ///////////////////////////////////////////////
-var Arr = [1,2,3,4,5,6,7,8,9,10];
+// var Arr = [1,2,3,4,5,6,7,8,9,10];
 //    - foreach 
 // var ans = Arr.forEach((v)=>{
 //     return v*v;
@@ -207,12 +210,12 @@ var Arr = [1,2,3,4,5,6,7,8,9,10];
 //     }
 // );
 
-var sum = Arr.reduce(
-    (currentvalue,nextvalue)=>{
-        return currentvalue+nextvalue;
-    }
-);
-console.log(sum);
+// var sum = Arr.reduce(
+//     (currentvalue,nextvalue)=>{
+//         return currentvalue+nextvalue;
+//     }
+// );
+// console.log(sum);
 
 // 1 2
 //  3 3
@@ -269,3 +272,18 @@ console.log(sum);
 
 // Reverse a String using Reduce:
 // Write a function that reverses a string using reduce.
+
+
+
+
+// 12. **Splice:**
+//     - Write a function `spliceAndReverse` that takes an array and two indices (`start` and `end`). Use `Array.prototype.splice` to extract a subarray from `start` to `end`, reverse it, and then insert it back into the original array at the same position. Return the modified array.
+
+// var A = [11,13,15,17];
+// function spliceAndReverse(Arr,start,end){
+//     var deltedtedValue =  Arr.splice(start,end).reverse();    
+//     Arr.push(...deltedtedValue)
+//     return Arr;
+// }
+// var newArr = spliceAndReverse(A,0,10);
+// console.log(newArr);
