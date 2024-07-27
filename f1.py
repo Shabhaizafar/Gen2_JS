@@ -1,0 +1,6 @@
+print(12)
+print(13)
+print(12)
+print(a)
+print(12)
+print(13)
