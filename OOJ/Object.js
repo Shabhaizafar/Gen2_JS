@@ -30,15 +30,17 @@
 
 // 5) Using Function : 
 
-function All(fname,age){
-    var obj = {}; // Object Literals
-    obj.firstname = fname;
-    obj.Age = age;
-    return obj;
-}
-var obj1 = All("Raj",12);
+// function All(fname,age){
+//     var obj = {}; // Object Literals
+//     obj.firstname = fname;
+//     obj.Age = age;
+//     return obj;
+// }
+// var obj1 = All("Raj",12);
+// var obj2 = All("Dhruv",100);
 
-console.log(obj1);
+// console.log(obj1);
+// console.log(obj2);
 
 
 
