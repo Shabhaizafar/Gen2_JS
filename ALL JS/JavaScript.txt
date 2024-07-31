@@ -89,7 +89,7 @@
    - Object.assign.
    - Optional chaining.
 
-=> Object Oriented JavaScript / Prototypal Inheritance :-    
+=> Object Oriented JavaScript / Prototypal Inher itance :-    
 
    - Methods.
    - This keyword, Window object.
