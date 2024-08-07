@@ -27,7 +27,7 @@ class MixinBuilder {
 const mix = (superclass) => new MixinBuilder(superclass);
 
 class Facebook extends mix(BaseClass).with(SocialNetwork, AdProvider) {}
-// const fb = new Facebook();
-// fb.foo();
-// fb.bar();
+const fb = new Facebook();
+fb.foo();
+fb.bar();
 
